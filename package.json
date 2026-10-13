@@ -1,0 +1,15 @@
+{
+  "name": "gov-miner-tce-am",
+  "version": "1.0.0",
+  "description": "Minerador de Acórdãos em PDF no site de Jurisprudência do TCE-AM.",
+  "main": "minerador.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node minerador.js",
+    "minerador": "node minerador.js"
+  },
+  "dependencies": {
+    "puppeteer": "latest"
+  }
+}
+
